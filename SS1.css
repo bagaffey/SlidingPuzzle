@@ -52,3 +52,73 @@ html {
 .caption, .checkable-set, input[type=radio] + label, .checkable-set, input[type=checkbox] + label, .subcaption, h5, h6, thead th {
     font-weight: 400;
 }
+
+.headline {
+    font-size: 4.6rem;
+}
+
+.heading, h1 {
+    font-size: 3.4rem;
+}
+
+.subheading, h2 {
+    font-size: 2.6rem;
+}
+
+.title, h3 {
+    font-size: 2rem;
+}
+
+.subtitle, caption, h4 {
+    font-size: 1.8rem;
+}
+
+.subtitle--alt {
+    font-size: 1.6rem;
+}
+
+.caption, h5 {
+    font-size: 1.2rem;
+}
+
+thead th {
+    font-size: 1.2rem;
+}
+
+.subcaption, h6 {
+    font-size: 1rem;
+}
+
+@media (min-width: 48em) {
+    .headline {
+        font-size: 6.2rem;
+    }
+    
+    .heading, h1 {
+        font-size: 4.6rem;
+    }
+    
+    .subheading, h2 {
+        font-size: 3.4rem;
+    }
+    
+    .title, h3 {
+        font-size: 2.4rem;
+    }
+    
+    .subtitle, caption, h4 {
+        font-size: 2rem;
+    }
+    
+    .subtitle--alt {
+        font-size: 1.8rem;
+    }
+    
+    .caption, h5 {
+        font-size: 1.3rem;
+    }
+    
+    .subcaption, h6 {
+        font-size: 1.1rem;
+    }
+}
