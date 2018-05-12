@@ -44,3 +44,11 @@ html {
     font-weight: 200;
     line-height: 1.2;
 }
+
+.subtitle, .subtitle--alt, .title, h3, h4 {
+    font-weight: 300;
+}
+
+.caption, .checkable-set, input[type=radio] + label, .checkable-set, input[type=checkbox] + label, .subcaption, h5, h6, thead th {
+    font-weight: 400;
+}
