@@ -1,14 +1,17 @@
-fieldset,img {
+fieldset, img {
     border: 0em;
 }
+
 * {
     box-sizing: border-box;
     margin: 0em;
     padding: 0em;
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
