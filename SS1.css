@@ -122,3 +122,52 @@ thead th {
         font-size: 1.1rem;
     }
 }
+
+li, p {
+    max-width: 64rem;
+}
+
+.footer li, .footer p, .header li, .header p {
+    max-width: none;
+}
+
+img, video {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+.video-wrap {
+    position: relative;
+    box-sizing: content-box;
+    padding-bottom: 56.25%;
+    height: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.video-wrap--youtube {
+    padding-top: 30px;
+}
+
+* + .video-wrap {
+    margin-top: 1.2rem;
+}
+
+@media (min-width: 33.75em) {
+    * + .video-wrap {
+        margin-top: 2rem;
+    }
+}
+
+.video-wrap embed, .video-wrap iframe, .video-wrap object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    display: block;
+}
