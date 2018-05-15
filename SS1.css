@@ -174,3 +174,40 @@ img, video {
 label {
     display: block;
 }
+
+input, select, textarea {
+    width: 100%;
+    max-width: 64rem;
+    height: 3.6rem;
+    border: 1px solid hsla(0, 0%, 0%, .6);
+    padding: .7rem 1rem;
+    background-color: hsla(0, 0%, 100%, .4)
+}
+
+textarea {
+    height: auto;
+    min-height: 3.6rem;
+    resize: vertical;
+}
+
+label + input:not([type=radio]):not([type=checkbox]), select, textarea {
+    margin-top: .7rem;
+}
+
+input:hover, select:hover, textarea:hover {
+    border-color: hsla(0, 0%, 0%, .8);
+    background-color: hsla(0, 0%, 100%, .6)
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #0078d7;
+    background-color: #fff;
+    outline: 0;
+}
+
+input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
+    border-color: transparent;
+    background-color: hsla(0, 0%, 0%, .2);
+    color: hsla(0, 0%, 0%, .2);
+}
+
