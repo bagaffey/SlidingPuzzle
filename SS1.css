@@ -302,3 +302,187 @@ button:disabled, select:disabled {
 .button--text + .button--text {
     margin-left: 1.2rem;
 }
+
+.button--text:active {
+    text-decoration: none;
+}
+
+.feature .button--cta:hover, .placement .button-cta:hover, .placement:hover .placement_title {
+    text-decoration: underline;
+}
+
+.button--icon {
+    height: 2rem;
+    position: relative;
+    text-indent: 100%;
+    width: 4.4rem;
+}
+
+.button--icon::before {
+    display: block;
+    font-size: 2rem;
+    height: 100%;
+    left: 0;
+    line-height: 1;
+    position: absolute;
+    text-indent: 0;
+    top: 0;
+    width: 100%;
+}
+
+[role=search], main {
+    position: relative;
+}
+
+.button--icon:hover {
+    color: hsla(0, 0%, 0%, .6);
+}
+
+.button--icon:active {
+    color: hsla(0, 0%, 0%, .4);
+}
+
+.button--search {
+    color: #7f7f7f;
+    font-size: 1.6rem;
+    height: 100%;
+    position: absolute;
+    transform: translate(-100%);
+    width: 3.4rem;
+}
+
+.button--search::before {
+    content: "\e721";
+    font-family: PlatformIcons;
+}
+
+.accordion__toggle::after, [class *= icon--]::after, [class*=icon--]::before, a.button--cta::after, summary::after {
+    font-family: PlatformIcons;
+}
+
+button.button--warning {
+    background-color: #e81123;
+    color: #fff;
+}
+
+a.button--cta {
+    border-width: 2px;
+    font-size: 1.3rem;
+    letter-spacing: .1em;
+    padding: .85rem 2.4rem;
+    text-transform: uppercase;
+}
+
+a.button--cta::after {
+    content: "\e76c";
+    display: inline-block;
+    margin: .1rem 0 0 .4rem;
+    vertical-align: top;
+}
+
+select {
+    appearance: none;
+    border-radius: 0;
+    background: url() right 1rem center/1.4rem .8rem no-repeat;
+    overflow: hidden;
+    text-indent: .01px;
+}
+
+select option:checked, select option:focus {
+    background-color: #3a96dd;
+    color: #fff;
+}
+
+select option, select:active {
+    background-color: #fff;
+    color: #000;
+}
+
+select option:active {
+    background-color: #767676;
+    color: #000;
+}
+
+select:disabled {
+    border-color: hsla(0, 0%, 0%, .2);
+    color: hsla(0, 0%, 0%, .6);
+}
+
+input[type=radio], input[type=checkbox] {
+    height: 2rem;
+    line-height: 2rem;
+    position: absolute;
+    width: 2rem;
+}
+
+input[type=radio] + label, input[type=checkbox] + label {
+    display: table;
+    padding-left: 3.2rem;
+}
+
+input[type=radio] + label::after, input[type=checkbox] + label::after {
+    content: "";
+    display: block;
+}
+
+.checkable-set input[type=radio], .checkable-set input[type=radio] + label, .checkable-set input[type=checkbox], .checkable-set input[type=checkbox] + label {
+    margin-top: 1.2rem;
+}
+
+input[type=file] {
+    border: 0;
+    height: auto;
+    outline: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+progress {
+    border: 0;
+    color: #0078d7;
+    display: block;
+    height: .4rem;
+    width: 100%;
+}
+
+.breadcrumb ul, thead th {
+    color: hsla(0, 0%, 0%, .6);
+}
+
+progress[value] {
+    background-color: hsla(0, 0%, 0%, .2);
+}
+
+main {
+    dispaly: block;
+    margin: 0 auto 4.8rem;
+}
+
+hr {
+    background: hsla(0, 0%, 0%, .2);
+    border: 0;
+    display: block;
+    height: 1px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container, hr {
+    max-width: 144rem;
+}
+
+.section, hr {
+    margin-top: 4.8rem;
+}
+
+* + .subsection, .content > header + .section, .section__header + .section__body, .subsection__body {
+    margin-top: 2.4rem;
+}
+
+.content > header:first-child, main > .section:first-child {
+    margin-top: 1.2rem;
+}
+
+.subsection__header {
+    display: block;
+}
