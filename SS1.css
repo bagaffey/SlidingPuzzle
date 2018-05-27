@@ -819,3 +819,71 @@ avatar img {
     display: inline-block;
     margin: 0 0 1.2rem 1.2rem;
 }
+
+.rendered-result, pre {
+    overflow-x: auto;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+pre {
+    background: hsla(0, 0%, 0%, .03);
+    border: 2px solid hsla(0, 0%, 0%, .03);
+}
+
+.rendered-result {
+    border: 2px solid hsla(0, 0%, 0%, .1);
+}
+
+* + .rendered-result {
+    margin-top: 2.4rem;
+}
+
+code {
+    font-family: Consolas, Menlo, monospace;
+    tab-size: 4;
+}
+
+.gist-file {
+    border-bottom: 2px solid #ddd;
+    border-width: 2px;
+}
+
+.gist-data {
+    border-bottom-width: 2px;
+}
+
+.visually-hidden {
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+
+.clear::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.bare {
+    margin-left: 0em;
+}
+
+.breadcrumb {
+    margin-top: 1.2rem;
+}
+.breadcrumb + header {
+    margin-top: 1.6rem;
+}
+
+.breadcrumb li {
+    display: inline;
+    font-size: 1.3rem;
+    margin-right: 0.8rem;
+}
+
+.breadcrumb li + li::before {
+    content: "\\";
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+}
+
