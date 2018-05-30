@@ -2226,41 +2226,84 @@ demo-filter__button {
     position: relative;
 }
 
+button[type=menu] + ul[role=menu] {
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+}
 
+button[type=menu] {
+    background: 0;
+    border: 0;
+    color: hsla(0, 0%, 0%, 0.6);
+    min-width: 0em;
+    padding: 0.8rem;
+}
 
+button[type=menu]::after {
+    color: #000;
+    content: "";
+    padding-left: 0.8rem;
+}
 
-    
+button[type=menu]:hover {
+    color: #000;
+}
 
+button[type=menu][disabled] {
+    color: hsla(0, 0%, 0%, 0.2);
+}
 
+button[type=menu][disabled]::after {
+    opacity: 0.2;
+}
 
+button[type=menu] + [role=menu], button[type=menu] + menu {
+    background: #fff;
+    border: 1px solid hsla(0, 0%, 0%, 0.1);
+    list-style: none;
+    margin: 0em;
+    min-width: 29.6rem;
+}
 
+button[type=menu] + [role=menu] label, button[type=menu] + menu menuitem{
+    background: hsla(0, 0%, 0%, 0.05);
+    cursor: pointer;
+    margin: 0em;
+    padding: 1.2rem;
+}
 
-    
-    
-        
-    
-    
+button[type=menu] + [role=menu] label:hover, button[type=menu] + menu menuitem:hover {
+    background: hsla(0, 0%, 0%, 0.1);
+}
 
+button[type=menu] + [role=menu] label:active, button[type=menu] + menu menuitem:active {
+    background: hsla(0, 0%, 0%, 0.3);
+}
 
+button[type=menu] + [role=menu] :checked + label, button[type=menu] + menu menuitem:checked {
+    background: #0078d7;
+    color: #fff;
+}
 
+button[type=menu] + [role=menu] input[disabled] + label, button[type=menu] + menu menuitem[disabled] {
+    background: hsla(0, 0%, 0%, 0.05);
+    color: hsla(0, 0%, 0%, 0.2);
+    cursor: not-allowed;
+}
 
+button[type=menu] + [role=menu] li {
+    margin: 0em;
+}
 
+button[type=menu] + [role=menu] input {
+    opacity: 0;
+}
 
+button[type=menu] + [role=menu] label {
+    display: block;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+button[type=menu] + [role=menu] input:focus + label {
+    outline: #000 dashed 1px;
+}
