@@ -1,3 +1,8 @@
-﻿body {
+body {
    background: #f8dbc9;
+}
+
+.puzzle-game-wrapper {
+   background: linear-gradient(to bottom, #473f87, #d35e4e;
+   padding: 2em;
 }
