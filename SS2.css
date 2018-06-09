@@ -3,6 +3,14 @@ body {
 }
 
 .puzzle-game-wrapper {
-   background: linear-gradient(to bottom, #473f87, #d35e4e;
+   background: linear-gradient(to bottom, #473f87, #d35e4e);
    padding: 2em;
+}
+
+.puzzle-title {
+   color: #fff;
+}
+
+.button--primary {
+   margin-top: 1.5em;
 }
