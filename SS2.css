@@ -14,3 +14,16 @@ body {
 .button--primary {
    margin-top: 1.5em;
 }
+
+.button.button--primary {
+   background-color: #fff;
+   color: #006cc2;
+}
+
+.puzzle-game {
+   background: rgba(0, 0, 0, 0.5);
+   display: grid;
+   grid: 1fr 1fr 1fr / 1fr 1fr 1fr;
+   margin: 2em auto;
+   outline: 5px solid #7a8af9;
+}
