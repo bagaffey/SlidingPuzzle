@@ -27,3 +27,14 @@ body {
    margin: 2em auto;
    outline: 5px solid #7a8af9;
 }
+
+.puzzle-game-image {
+   margin: 0em;
+   outline: 1px solid #000;
+   outline-offset: -1px;
+   width: 100%;
+}
+
+.hidden-piece {
+   opacity: 0;
+}
