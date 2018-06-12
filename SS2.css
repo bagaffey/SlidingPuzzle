@@ -38,3 +38,7 @@ body {
 .hidden-piece {
    opacity: 0;
 }
+
+.puzzle-game-image:focus {
+   outline-color: red;
+}
