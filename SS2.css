@@ -42,3 +42,8 @@ body {
 .puzzle-game-image:focus {
    outline-color: red;
 }
+
+.piece-is-moveable {
+   border: 2px solid #fff;
+   outline: 1px solid #fff;
+}
