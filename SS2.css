@@ -47,3 +47,13 @@ body {
    border: 2px solid #fff;
    outline: 1px solid #fff;
 }
+
+.puzzle-score {
+   background: rgba(0, 0, 0, .5);
+   color: #fff;
+   display: inline-block;
+   font-size: 1.6em;
+   font-weight: 300;
+   max-width: 12em;
+   padding: 0.5em;
+}
