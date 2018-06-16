@@ -57,3 +57,7 @@ body {
    max-width: 12em;
    padding: 0.5em;
 }
+
+.puzzle-score p {
+   margin: 0.5em 0em 0em;
+}
