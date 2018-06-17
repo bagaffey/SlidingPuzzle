@@ -61,3 +61,7 @@ body {
 .puzzle-score p {
    margin: 0.5em 0em 0em;
 }
+
+.congratulations {
+   display: none;
+}
