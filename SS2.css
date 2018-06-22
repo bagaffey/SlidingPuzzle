@@ -78,3 +78,15 @@ body {
       max-width: 100vmin;
    }
 }
+
+@media screen and (min-width: 40em) {
+   .puzzle-title,
+   .button {
+      display: inline-block;
+      vertical-align: middle;
+   }
+   
+   .button {
+      margin: 0 0 0 2em;
+   }
+}
