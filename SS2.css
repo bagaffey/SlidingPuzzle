@@ -99,8 +99,8 @@ body {
       grid-template-rows: auto 30vmin 30vmin;
       grid-template-columns: 5% 60vmin auto auto 5%;
       grid-template-areas: ". title title title ."
-									". game  score palm  ."
-									". game  score palm  .";
+			   ". game  score palm  ."
+			   ". game  score palm  .";
       padding: 0em;
    }
    
@@ -125,3 +125,17 @@ body {
    }
 }
 
+@media screen and (min-width: 60em) {
+	.palm-tree {
+		align-self: end;
+		display: block;
+		grid-area: palm;
+		justify-self: end;
+		margin-bottom: 2vmin;
+		max-height: 75%;
+	}
+}
+
+	
+	
+	
