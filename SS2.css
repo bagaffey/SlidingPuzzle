@@ -136,6 +136,15 @@ body {
 	}
 }
 
+.demo-info {
+	margin: 0 5% 4.8rem 5%;
+}
+
+.demo-info a:link
+.demo-info a:visited {
+	border-bottom: 1px solid;
+	color: #000;
+}
 	
 	
 	
