@@ -145,6 +145,10 @@ body {
 	border-bottom: 1px solid;
 	color: #000;
 }
-	
-	
-	
+
+.demo-info a:hover {
+	border-bottom: 1px solid;
+	text-decoration: none;
+}
+
+
