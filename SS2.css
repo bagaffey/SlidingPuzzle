@@ -151,4 +151,11 @@ body {
 	text-decoration: none;
 }
 
+dl {
+	display: grid;
+	grid-gap: 1em 0;
+	grid-template-columns: fit-content(4em) auto;
+}
+
+
 
