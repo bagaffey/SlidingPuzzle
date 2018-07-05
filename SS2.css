@@ -162,6 +162,10 @@ dt, dd {
 	padding-bottom: 1em;
 }
 
+dt {
+	padding-right: 1em;
+	text-align: center;
+}
 
 
 
