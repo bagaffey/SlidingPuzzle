@@ -167,5 +167,16 @@ dt {
 	text-align: center;
 }
 
-
-
+@media screen and (min-width: 50em) {
+	.demo-info {
+		background: linear-gradient(to bottom, #eca06f, #eca06f 6em, #f8dbc9 15em, #f8dbc9);
+		margin: 0em;
+		padding: 10em 2em 0em;
+	}
+	
+	.demo-info > * {
+		margin-left: 5%;
+		margin-right: 5%;
+		max-width: 54em;
+	}
+}
