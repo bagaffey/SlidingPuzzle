@@ -7,4 +7,5 @@
   const soundButton = document.getElementById('toggle-audio');
   const congratulations = document.getElementsByClassName('congratulations')[0];
   let shuffledPieces = pieces;
+  const hiddenPiece = pieces[6];
 }());
