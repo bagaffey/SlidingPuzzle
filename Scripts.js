@@ -8,4 +8,5 @@
   const congratulations = document.getElementsByClassName('congratulations')[0];
   let shuffledPieces = pieces;
   const hiddenPiece = pieces[6];
+  let clickCount = 0;
 }());
