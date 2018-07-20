@@ -9,4 +9,6 @@
   let shuffledPieces = pieces;
   const hiddenPiece = pieces[6];
   let clickCount = 0;
+  let isDone = true;
+	let audio = false;
 }());
