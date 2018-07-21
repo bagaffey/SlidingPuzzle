@@ -10,5 +10,7 @@
   const hiddenPiece = pieces[6];
   let clickCount = 0;
   let isDone = true;
-	let audio = false;
+  let audio = false;
+  const success = new Audio('');
+  const fail = new Audio('');
 }());
