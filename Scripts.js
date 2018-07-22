@@ -13,4 +13,8 @@
   let audio = false;
   const success = new Audio('');
   const fail = new Audio('');
+  
+  const shuffle = function(array) {
+    let currentIndex = array.length, temporaryValue, randomIndex;
+  };
 }());
