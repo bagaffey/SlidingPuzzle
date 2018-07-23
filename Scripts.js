@@ -16,5 +16,11 @@
   
   const shuffle = function(array) {
     let currentIndex = array.length, temporaryValue, randomIndex;
+    
+    while (currentIndex !== 0) {
+      currentIndex -= 1;
+    }
+    
+    return (array);
   };
 }());
