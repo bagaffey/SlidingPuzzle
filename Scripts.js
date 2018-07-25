@@ -15,10 +15,15 @@
   const fail = new Audio('');
   
   const shuffle = function(array) {
-    let currentIndex = array.length, temporaryValue, randomIndex;
+    let currentIndex = array.length, temp, randomIndex;
     
     while (currentIndex !== 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
+      
+      temp = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temp;
     }
     
     return (array);
