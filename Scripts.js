@@ -28,4 +28,11 @@
     
     return (array);
   };
+  
+  const updatePositions = function() {
+    shuffledPieces.forEach((piece) => { 
+      piece.parentNode.appendChild(piece);
+    });
+  };
+  
 }());
