@@ -35,4 +35,10 @@
     });
   };
   
+  const highlightMoveablePieces = function() {
+    const indexOfHiddenPiece = shuffledPieces.indexOf(hiddenPlace);
+    const rowOfHiddenPiece = Math.floor(indexOfHiddenPiece / 3);
+    const colOfHiddenPiece = indexOfHiddenPiece % 3;
+  };
+  
 }());
