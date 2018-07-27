@@ -39,6 +39,12 @@
     const indexOfHiddenPiece = shuffledPieces.indexOf(hiddenPlace);
     const rowOfHiddenPiece = Math.floor(indexOfHiddenPiece / 3);
     const colOfHiddenPiece = indexOfHiddenPiece % 3;
+    
+    for (const piece of pieces) {
+      const indexOfCurrentPiece = shuffledPieces.indexOf(piece);
+      const rowOfCurrentPiece = Math.floor(indexOfCurrentPiece / 3);
+      const colOfCurrentPiece = indexOfCurrentPiece % 3;
+    }
   };
   
 }());
