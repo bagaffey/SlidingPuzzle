@@ -44,6 +44,13 @@
       const indexOfCurrentPiece = shuffledPieces.indexOf(piece);
       const rowOfCurrentPiece = Math.floor(indexOfCurrentPiece / 3);
       const colOfCurrentPiece = indexOfCurrentPiece % 3;
+      
+      if ((colOfCurrentPiece === colOfHiddenPiece && Math.abs(rowOfHiddenPiece - rowOfCurrentPiece) === 1) ||
+          (rowOfCurrentPiece === rowOfHiddenPiece && Math.abs(colOfHiddenPiece - colOfCurrentPiece) === 1)) {
+        piece.classList.add('piece-is-moveable');
+      } else {
+        piece.classList.remove('piece-is-moveable');
+      }
     }
   };
   
