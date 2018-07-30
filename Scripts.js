@@ -64,4 +64,21 @@
     highlightMoveablePieces();
   };
   
+  const checkIfHasWon = function() {
+    const hasWon = suffledPieces.every((piece, index) => {
+      return (piece[index] === piece);
+    });
+    if (hasWon) {
+      if (clickCount === 0) {
+        reset();
+      } else {
+        isDone = true;
+        hiddenPiece.style.opacity = "1";
+        congratulations.style.display = "block";
+        congratulations.focus();
+        congratulations.textContent = "Mission Accomplished!";
+      }
+    }
+  };
+  
 }());
