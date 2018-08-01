@@ -86,6 +86,23 @@
     e.innerText = audioText;
   };
   
+  const toggleAudio = function() {
+    let audioText = "";
+    switch (audio) {
+      case true: {
+        audio = false;
+        audioText = "on";
+        break;
+      }
+      default: {
+        audio = true;
+        audioText = "off";
+        break;
+      }
+    }
+    updateToggleButtonText(audioText);
+  };
+  
   
   
 }());
