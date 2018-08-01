@@ -81,4 +81,11 @@
     }
   };
   
+  const updateToggleButtonText = function(audioText) {
+    const e = soundButton.querySelector('span');
+    e.innerText = audioText;
+  };
+  
+  
+  
 }());
