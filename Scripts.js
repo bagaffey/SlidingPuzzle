@@ -103,6 +103,10 @@
     updateToggleButtonText(audioText);
   };
   
-  
+  const say = function(statement) {
+    if (window.speechSynthesis.speak) {
+      window.speechSynthesis.speak(new SpeechSynthesisUtterance(statement));
+    }
+  };
   
 }());
