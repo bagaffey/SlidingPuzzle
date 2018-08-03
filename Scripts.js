@@ -109,4 +109,15 @@
     }
   };
   
+  const whereIsHiddenPiece = function(requested) {
+    const indexOfHiddenPiece = shuffledPieces.indexOf(hiddenPiece);
+    const colOfHiddenPiece = (indexOfHiddenPiece % 3) + 1;
+    const rowOfHiddenPiece = (Math.floor(indexOfHiddenPiece / 3)) + 1;
+    
+    if (requested) {
+      say(`The hidden piece is in row ${rowOfHiddenPiece} and in column ${colOfHiddenPiece}`);
+    }
+  };
+  
+  
 }());
