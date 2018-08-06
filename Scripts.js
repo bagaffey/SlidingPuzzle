@@ -148,5 +148,14 @@
     }
   };
   
+  const whereAreTheMoveablePieces = function() {
+    let speech = "Tiles that can move: ";
+    const tiles = document.querySelectorAll(".piece-is-moveable");
+    tiles.forEach((tile) => {
+      speech += `Tile ${tile.getAttribute('aria-label')} `;
+    });
+    say(speech);
+  };
+  
   
 }());
