@@ -157,5 +157,10 @@
     say(speech);
   };
   
+  const trySwapWithHiddenPiece = function() {
+    const clickedPiece = this || null;
+    clickedPiece.focus();
+  };
+  
   
 }());
