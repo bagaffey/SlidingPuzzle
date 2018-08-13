@@ -160,6 +160,12 @@
   const trySwapWithHiddenPiece = function() {
     const clickedPiece = this || null;
     clickedPiece.focus();
+    const indexOfHiddenPiece = shuffledPieces.indexOf(hiddenPiece);
+    const indexOfClickedPiece = shuffledPieces.indexOf(clickedPiece);
+    const rowOfHiddenPiece = Math.floor(indexOfHiddenPiece / 3);
+    const colOfHiddenPiece = indexOfHiddenPiece % 3;
+    const rowOfClickedPiece = Math.floor(indexOfClickedPiece / 3);
+    const colOfClickedPiece = indexOfClickedPiece % 3;
   };
   
   
