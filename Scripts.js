@@ -166,6 +166,29 @@
     const colOfHiddenPiece = indexOfHiddenPiece % 3;
     const rowOfClickedPiece = Math.floor(indexOfClickedPiece / 3);
     const colOfClickedPiece = indexOfClickedPiece % 3;
+    
+    const IsMoveValid = (
+      false || 
+      (colOfClickedPiece === colOfHiddenPiece && Math.abs(rowOfHiddenPiece - rowOfClickedPiece) === 1) ||
+      (rowOfClickedPiece === rowOfHiddenPiece && Math.abs(colOfHiddenPiece - colOfClickedPiece) === 1)
+    );
+    
+    if (IsMoveValid && !isDone) {
+      clickCount++;
+      clickScore.textContent = clickCount;
+      shuffledPieces[indexOfHiddenPiece] = clickedPiece;
+      shuffledPieces[indexOfClickedPiece] = hiddenPiece;
+      
+      if (audio) {
+        success.play();
+      }
+      
+      updatePositions();
+      highlightMoveablePieces();
+      checkIfHasWon();
+    } else if (audio) {
+      fail.play();
+    }
   };
   
   
