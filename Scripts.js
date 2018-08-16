@@ -36,7 +36,7 @@
   };
   
   const highlightMoveablePieces = function() {
-    const indexOfHiddenPiece = shuffledPieces.indexOf(hiddenPlace);
+    const indexOfHiddenPiece = shuffledPieces.indexOf(hiddenPiece);
     const rowOfHiddenPiece = Math.floor(indexOfHiddenPiece / 3);
     const colOfHiddenPiece = indexOfHiddenPiece % 3;
     
@@ -65,7 +65,7 @@
   };
   
   const checkIfHasWon = function() {
-    const hasWon = suffledPieces.every((piece, index) => {
+    const hasWon = shuffledPieces.every((piece, index) => {
       return (piece[index] === piece);
     });
     if (hasWon) {
@@ -189,6 +189,14 @@
     } else if (audio) {
       fail.play();
     }
+  };
+  
+  const handleKeyDown = function(event) {
+    const indexOfHiddenPiece = shuffledPieces.indexOf(hiddenPiece);
+    const rowOfHiddenPiece = Math.floor(indexOfHiddenPiece / 3);
+    const colOfHiddenPiece = indexOfHiddenPiece % 3;
+    let indexOfClickedPiece;
+    
   };
   
   
