@@ -197,6 +197,32 @@
     const colOfHiddenPiece = indexOfHiddenPiece % 3;
     let indexOfClickedPiece;
     
+    switch (event.key) {
+      case "w": {
+        const rowOfClickedPiece = rowOfHiddenPiece + 1;
+        const colOfClickedPiece = colOfHiddenPiece;
+        indexOfClickedPiece = (rowOfClickedPiece * 3) + colOfClickedPiece;
+        break;
+      }
+      case "a": {
+        const rowOfClickedPiece = rowOfHiddenPiece;
+        const colOfClickedPiece = colOfHiddenPiece + 1;
+        indexOfClickedPiece = (rowOfClickedPiece * 3) + colOfClickedPiece;
+        break;
+      }
+      case "s": {
+        const rowOfClickedPiece = rowOfHiddenPiece - 1;
+        const colOfClickedPiece = colOfHiddenPiece;
+        indexOfClickedPiece = (rowOfClickedPiece * 3) + colOfClickedPiece;
+        break;
+      }
+      case "d": {
+        const rowOfClickedPiece = rowOfHiddenPiece;
+        const colOfClickedPiece = colOfHiddenPiece - 1;
+        indexOfClickedPiece = (rowOfClickedPiece * 3) + colOfClickedPiece;
+        break;
+      }
+    }
   };
   
   
