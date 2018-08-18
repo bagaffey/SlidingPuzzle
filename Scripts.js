@@ -222,6 +222,10 @@
         indexOfClickedPiece = (rowOfClickedPiece * 3) + colOfClickedPiece;
         break;
       }
+      case "c": {
+        currentState(true);
+        break;
+      }
     }
   };
   
