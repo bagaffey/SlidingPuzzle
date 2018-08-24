@@ -243,6 +243,11 @@
         break;
       }
     }
+    
+    const clickedPiece = shuffledPieces[indexOfClickedPiece];
+    if (clickedPiece) {
+      trySwapWithHiddenPiece.call(clickedPiece, event);
+    }
   };
   
   
