@@ -250,5 +250,12 @@
     }
   };
   
+  const playAudio = function(audioVar) {
+    if (window.currentlyPlaying) {
+      window.currentlyPlaying.pause();
+    }
+    window.currentlyPlaying = audioVar.target;
+  };
+  
   
 }());
