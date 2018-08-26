@@ -256,6 +256,7 @@
     }
     window.currentlyPlaying = audioVar.target;
   };
-  
+
+  addEventListener('keydown', handleKeydown);
   
 }());
