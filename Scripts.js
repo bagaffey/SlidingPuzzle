@@ -258,5 +258,5 @@
   };
 
   addEventListener('keydown', handleKeydown);
-  
+  addEventListener('play', playAudio, true);
 }());
