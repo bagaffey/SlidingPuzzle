@@ -257,6 +257,7 @@
     window.currentlyPlaying = audioVar.target;
   };
 
-  addEventListener('keydown', handleKeydown);
-  addEventListener('play', playAudio, true);
+  addEventListener("keydown", handleKeydown);
+  addEventListener("play", playAudio, true);
+  soundButton.addEventListener("click", toggleAudio);
 }());
