@@ -260,4 +260,9 @@
   addEventListener("keydown", handleKeydown);
   addEventListener("play", playAudio, true);
   soundButton.addEventListener("click", toggleAudio);
+  
+  for (const piece of pieces) {
+    piece.addEventListener("click", trySwapWithHiddenPiece);
+    piece.addEventListener("keypress", trySwapWithHiddenPiece);
+  }
 }());
