@@ -265,4 +265,7 @@
     piece.addEventListener("click", trySwapWithHiddenPiece);
     piece.addEventListener("keypress", trySwapWithHiddenPiece);
   }
+  
+  reset(); 
+  updatePositions();
 }());
