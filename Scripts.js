@@ -49,7 +49,7 @@
           (rowOfCurrentPiece === rowOfHiddenPiece && Math.abs(colOfHiddenPiece - colOfCurrentPiece) === 1)) {
         piece.classList.add('piece-is-moveable');
       } else {
-        piece.classList.remove('piece-is-moveable');
+        piece.classList.remove("piece-is-moveable");
       }
     }
   };
