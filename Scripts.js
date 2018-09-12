@@ -11,8 +11,8 @@
   let clickCount = 0;
   let isDone = true;
   let audio = false;
-  const success = new Audio('');
-  const fail = new Audio('');
+  const success = new Audio("");
+  const fail = new Audio("");
   
   const shuffle = function(array) {
     let currentIndex = array.length, temp, randomIndex;
