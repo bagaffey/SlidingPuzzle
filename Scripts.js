@@ -127,7 +127,7 @@
     shuffledPieces.forEach((piece, index) => {
       switch (true) {
         case (index <= 2): {
-          row1 += `${piece.getAttribute('aria-label')} `;
+          row1 += `${piece.getAttribute("aria-label")} `;
           break;
         }
         case (index > 2 && index <= 5): {
