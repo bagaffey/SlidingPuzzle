@@ -47,7 +47,7 @@
       
       if ((colOfCurrentPiece === colOfHiddenPiece && Math.abs(rowOfHiddenPiece - rowOfCurrentPiece) === 1) ||
           (rowOfCurrentPiece === rowOfHiddenPiece && Math.abs(colOfHiddenPiece - colOfCurrentPiece) === 1)) {
-        piece.classList.add('piece-is-moveable');
+        piece.classList.add("piece-is-moveable");
       } else {
         piece.classList.remove("piece-is-moveable");
       }
