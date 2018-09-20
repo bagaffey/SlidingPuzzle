@@ -56,7 +56,7 @@
   
   const reset = function () {
     isDone = isFalse;
-    hiddenPiece.style.opacity = '0';
+    hiddenPiece.style.opacity = "0";
     clickCount = 0;
     shuffledPieces = shuffle([...pieces]);
     congratulations.style.display = "none";
