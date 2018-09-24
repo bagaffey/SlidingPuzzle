@@ -131,7 +131,7 @@
           break;
         }
         case (index > 2 && index <= 5): {
-          row2 += `${piece.getAttribute('aria-label')} `;
+          row2 += `${piece.getAttribute("aria-label")} `;
           break;
         }
         default: {
