@@ -135,7 +135,7 @@
           break;
         }
         default: {
-          row3 += `${piece.getAttribute('aria-label')} `;
+          row3 += `${piece.getAttribute("aria-label")} `;
           break;
         }
       }
