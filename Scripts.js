@@ -4,7 +4,7 @@
   
   const pieces = [...document.querySelectorAll(".puzzle-game > img")];
   const soundButton = document.getElementById("toggle-audio");
-  const congratulations = document.getElementsByClassName("congratulations")[0];
+  const congratulations = document.getElementsByClassName("comhghairdeas")[0];
   const clickScore = document.getElementById("clicks");
   let shuffledPieces = pieces;
   const hiddenPiece = pieces[6];
