@@ -1302,7 +1302,7 @@ code {
 
 @media (min-width: 58em) {
     .nav__navbar {
-        dispaly: block;
+        display: block;
         width: 90%;
     }
     
