@@ -956,7 +956,7 @@ code {
 @media (min-width: 67.75em) {
     .feature__title, .hero__title {
         font-size: 3.4rem;
-        font-weight: 100px;
+        font-weight: 100;
     }
 }
 
