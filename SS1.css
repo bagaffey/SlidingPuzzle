@@ -1183,7 +1183,7 @@ code {
     right: 0em;
 }
 
-.button-search::hover, input[type=search].search-active ~ .button-search:hover {
+.button-search::hover, input[type=search].search-active ~ .button-search::hover {
     color: #0072c6;
 }
 
