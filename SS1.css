@@ -1213,7 +1213,7 @@ code {
 }
 
 .header__form-search input[type=search] {
-    visisbility: collapse;
+    visibility: collapse;
 }
 
 .header__form-search .button-search {
