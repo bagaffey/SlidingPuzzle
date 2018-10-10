@@ -1220,7 +1220,7 @@ code {
     font-size: 2.1rem;
 }
 
-.header__form-search .button-search::focus, .header__form-search .button-search:hover {
+.header__form-search .button-search:focus, .header__form-search .button-search:hover {
     background-color: hsla(0, 0%, 0%, 0.05);
     outline: 0;
 }
