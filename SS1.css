@@ -1476,7 +1476,7 @@ a.user-account:focus {
         padding: 1.5rem 2.25rem;
     }
     
-    .navbar__submenu li:list-of-type {
+    .navbar__submenu li:last-of-type {
         padding-bottom: 0.8rem;
     }
 }
