@@ -1501,7 +1501,7 @@ dt {
 }
 
 .visually-hidden + *, dt + dd {
-    marign-top: 0em;
+    margin-top: 0em;
 }
 
 [aria-hidden=true] {
