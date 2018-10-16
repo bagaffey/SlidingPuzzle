@@ -2196,7 +2196,7 @@ demo-filter__button {
 }
 
 .demo-results {
-    border-top: 1px solid hsla(0, 0, 0, 0.2);
+    border-top: 1px solid hsla(0, 0%, 0%, 0.2);
 }
 
 .button--search {
