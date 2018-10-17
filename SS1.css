@@ -1605,7 +1605,7 @@ content > header, .section--page-intro .section__header {
         width: 20%;
     }
     
-    .layout--fifths .module-nth-child(-n + 5) {
+    .layout--fifths .module:nth-child(-n + 5) {
         margin-top: 0em;
     }
     
