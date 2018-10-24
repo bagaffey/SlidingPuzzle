@@ -269,3 +269,4 @@
   reset(); 
   updatePositions();
 }());
+console.log("Game scripts have finished.");
