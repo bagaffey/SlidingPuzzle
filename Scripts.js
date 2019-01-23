@@ -66,7 +66,7 @@
   
   const checkIfHasWon = function() {
     const hasWon = shuffledPieces.every((piece, index) => {
-      return (piece[index] === piece);
+      return (pieces[index] === piece);
     });
     if (hasWon) {
       if (clickCount === 0) {
