@@ -82,7 +82,7 @@
   };
   
   const updateToggleButtonText = function(audioText) {
-    const e = soundButton.querySelector("span");
+    const e = soundButton.parentElement.querySelector("span");
     e.innerText = audioText;
   };
   
