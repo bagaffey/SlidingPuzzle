@@ -831,10 +831,6 @@ pre {
     border: 2px solid hsla(0, 0%, 0%, .03);
 }
 
-.rendered-result {
-    border: 2px solid hsla(0, 0%, 0%, .1);
-}
-
 * + .rendered-result {
     margin-top: 2.4rem;
 }
