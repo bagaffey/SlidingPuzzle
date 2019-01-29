@@ -16,7 +16,7 @@ a:hover {
     text-decoration: underline;
 }
 
-*+audio, *+blockquote, *+dl, *+fieldset, *+img, *+label, *+old, *+p, *+pre, *+ul, *+video {
+*+audio, *+blockquote, *+dl, *+fieldset, *+img, *+label, *+old, *+p, *+pre, *+ul, *+vdeo {
     margin-top: 2.4rem;
 }
 
@@ -161,14 +161,6 @@ img, video {
     * + .video-wrap {
         margin-top: 2rem;
     }
-}
-
-.video-wrap embed, .video-wrap iframe, .video-wrap object {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 label {
