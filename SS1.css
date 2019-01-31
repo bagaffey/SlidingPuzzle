@@ -344,10 +344,6 @@ button:disabled, select:disabled {
     font-family: PlatformIcons;
 }
 
-.accordion__toggle::after, [class *= icon--]::after, [class*=icon--]::before, a.button--cta::after, summary::after {
-    font-family: PlatformIcons;
-}
-
 button.button--warning {
     background-color: #e81123;
     color: #fff;
