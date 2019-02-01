@@ -16,7 +16,7 @@ a:hover {
     text-decoration: underline;
 }
 
-*+audio, *+blockquote, *+dl, *+fieldset, *+img, *+label, *+old, *+p, *+pre, *+ul, *+vdeo {
+*+audio, *+blockquote, *+dl, *+fieldset, *+img, *+label, *+old, *+p, *+pre, *+ul, *+video {
     margin-top: 2.4rem;
 }
 
