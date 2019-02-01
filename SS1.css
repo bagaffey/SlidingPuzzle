@@ -2144,10 +2144,6 @@ a:hover .contributor__name {
     text-decoration: underline;
 }
 
-.avatar--company {
-    border-radius: 0;
-}
-
 .demo-details__cats li, .demo-details__tagss li {
     margin-top: 0.4rem;
 }
