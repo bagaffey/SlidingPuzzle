@@ -1360,10 +1360,6 @@ code {
     padding-bottom: 0.3rem;
 }
 
-.user-account .navitem__button::after {
-    content: "";
-}
-
 .user-account .navbar__submenu {
     right: 0;
     width: 35rem;
