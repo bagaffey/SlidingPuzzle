@@ -339,11 +339,6 @@ button:disabled, select:disabled {
     width: 3.4rem;
 }
 
-.button--search::before {
-    content: "\e721";
-    font-family: PlatformIcons;
-}
-
 button.button--warning {
     background-color: #e81123;
     color: #fff;
