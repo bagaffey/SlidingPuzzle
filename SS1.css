@@ -1839,10 +1839,6 @@ a.tile__cta::before {
     width: 25px;
 }
 
-.social__icon--stackoverflow svg {
-    width: 16px;
-}
-
 .social__icon--github svg {
     width: 21px;
 }
