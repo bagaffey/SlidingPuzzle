@@ -1839,10 +1839,6 @@ a.tile__cta::before {
     width: 25px;
 }
 
-.social__icon--github svg {
-    width: 21px;
-}
-
 .footer__links {
     font-size: 1.2rem;
     margin: 1.2rem 0 0;
