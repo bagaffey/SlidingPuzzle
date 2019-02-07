@@ -794,11 +794,6 @@ avatar img {
     margin-left: -1.2rem;
 }
 
-.list--avatars > li {
-    display: inline-block;
-    margin: 0 0 1.2rem 1.2rem;
-}
-
 .rendered-result, pre {
     overflow-x: auto;
     padding: 2.4rem;
