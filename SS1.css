@@ -790,10 +790,6 @@ avatar img {
     display: block;
 }
 
-.list--avatars {
-    margin-left: -1.2rem;
-}
-
 .rendered-result, pre {
     overflow-x: auto;
     padding: 2.4rem;
